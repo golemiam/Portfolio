@@ -1,0 +1,49 @@
+.sidenav {
+    height: 110%;
+    width: 160px
+    background-color: orange
+
+}
+
+body {
+    background: #5398BE;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    background-color: #FFD044;
+    font-size: 20px;
+    border: solid 2px black;
+    padding: 15px 32px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    left: 325px;
+}
+
+.sidebar {
+    position: absolute;
+    width: 190px;
+    height: 200%;
+    background-color: #FB8B23;
+    text-align: right;
+    float: left;
+    top: 450px;
+    bottom: 0px;
+
+}
+
+.sidebar ul li {
+    border-bottom: 2px solid #D741A7;
+    padding: 10px;
+}
+
+.myname {
+    font-size: 50px;
+}
+
+.linkedin{
+    position: relative;
+    left: 150px;
+}
