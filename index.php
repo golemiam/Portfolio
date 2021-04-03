@@ -1,14 +1,16 @@
 <!DOCTYPE html>
+<!--Powered with Bootstrap-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Robert Platt Portfolio</title>
+    <title>Robert Platt Resume</title>
     <col span="2" class="Rhead"><col>
     <link rel="stylesheet" href="styles.css">    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
     <style>
     .highlights{
         position: webkit-sticky;
@@ -32,12 +34,12 @@
                 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://platt.zaberwolf.com/">Resume<span class="sr-only"></span></a>
+                        <a class="nav-link" href="#">Resume<span class="sr-only"></span></a>
                     </li>
-                    <li class="nav-item active">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
                         <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
-                    </li>
+                    </li>                  
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.linkedin.com/in/RobertTPlatt">LinkedIn</a>
                     </li>
@@ -46,116 +48,351 @@
                         Contact
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Contact Robbie</a>
-                        <a class="dropdown-item" href="#"></a>
+                        <a class="dropdown-item" href="mailto:Golemiam@gmail.com">Contact Robbie</a>
+                        <a class="dropdown-item" href="mailto:Robert.platt28@gmail.com">Robert.platt28@gmail.com</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#"></a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
                     </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </nav>
             <br>
             <br>
-            <h2 width=12%>Robert T. Platt</h2>
-        <table>  
-                <tr>
-                        <th width=25%>
-                            <div class="p-3 mb-2 bg-secondary text-white">
-
-                                <link rel="stylesheet" href="https://www.linkedin.com/in/RobertTPlatt">
-                                <a href="https://www.linkedin.com/in/RobertTPlatt">RobertTPlattLinkedIn</a>
-                            </div>
-                        </th>
-                        <th width=30%>
-                                <div class="p-3 mb-2 bg-secondary text-white">Phone number: 801-946-1453 Call/Text, Text preferred</div>
-                                </th>
-                        <th width=25%><div class="p-3 mb-2 bg-secondary text-white">Email: RobertPlatt28@gmail.com</div>
-                        </th>
-                    
-                </tr>
-        </table>
-        <div class="col">
-        <img src="resumephoto.JPG" width="15%" height="15%" style="float: left; margin-right: 10px"/>
+        <div class="col" class = "text-center">
+       <h2 class = "text-center">With a Bachelors degree in Special Education from Utah State University and a certificate in Web Development
+            and Design from Salt Lake Community College 
+           is able to complete hard things.</h2> <h2 class = "text-center">With an unquenchable quest for knowledge has sought out to learn over 5 spoken languages 
+            and 4 programming languages.</h2> 
+           <h2 class = "text-center">Manages his time to include work, study, and family life.</h2> 
+           <h2 class = "text-center">Over 5 years of customer service experience is an added bonus on top.</h2>
         </div>
-        <h2 strong>Summary</h2>
-        <p>Studious individual seeking to increase my linguistic 
-            knowledge of both computer languages and spoken languages. 
-            Speaks in Italian, Spanish, and German, with some fluency 
-            and continues to develop these spoken languages as well as 
-            coding languages HTML, JavaScript, and Python. A Web 
-            developer starting out and looking for an opportunity to 
-            better myself and prove a valuable asset to your company. 
-        
         <br>
-        <div class="highlights">
-            
-                
+        <br>
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Skills Summary
+        </button>
+      </h2>
+    </div>
 
-                
-                    
-                <div class="sticky-top">
-                    <div class="p-3 mb-2 bg-warning text-dark">                
-                        <ul>
-                            <h2>Highlights</h2>
-                            <li>Spanish</li>
-                            <li>German</li>
-                            <li>Italian</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                        </ul>
-                    </div>
-                </div>
-            
-    
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+    <div class="text-info">
+        <h5>Web programming and design experience</h5>
+        <ul>        
+          <li>HTML-1 year of experience</li>
+          <li>CSS-1 year of experience</li>
+          <li>Javascript (Object oriented programming)-1 year of experience</li>
+          <li>PHP-less then 1 year of experience</li>
+          <li>Wordpress-less then 1 year of experience</li>
+          <Li>Adobe Photoshop-less then 1 year of experience</Li>
+          <li>Microsoft Office-Multiple years of experience</Li>
+       </ul>
+    <br>
+<h5>Self-starter</h5>
+<ul>
+<li>Manages time and organizes tasks</li>
+</ul>
+<br>
+  <h5>Customer service oriented</h5>
+<ul>
+  <li>willing to help others out</li>
+  <li>5+ years of Customer Service Experience</li>
+</ul>
+  <br>
+  <h5>Special Needs</h5>
+<ul>
+  <li>Has a bachelors in Special education</li>
+  <li>Is aware of disability law</li>
+  <li>has 3+ years of serving people with special needs</li>
+  <li>Developed patience and understanding with others</li>
+</ul>
+  <br>
+<h5>Multilingual</h5>
+<ul>
+    <li>able to hold basic conversations in Italian, Spanish and German languages</li>
+</ul>
+<br>
+    <h5>Interpersonal Skills</h5>
+<ul>
+    <li>able to communicate effectively with others and work with others to find solutions
+Detail and task oriented; able to solve problems on their own with research</li>
+</ul>
+<br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Education
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+          <div class = "text-info">
+  <h5>Salt Lake Community College<h5>
+  <ul>
+    <li>August 2019 - April 2020</li>
+    <li>Professional Certificate: Web Design and Programming
+129 Hour Training hour training certificate in website design and development</li>
+<li>Coursework in HTML, CSS, Javascript, PHP, Photoshop and Wordpress</li>
+<li>Internship experience with Closer to Cure foundation</li>
+<li>Lead intership group management using trello</li>
+<li>Introduced to SCRUM methodologies</li>
+<br>
+  </ul>
+  <h5>University of Utah State — Logan, Utah</h5>
+  <ul>
+    <li>Graduated June 2015</li>
+    <li>Major: Interdisciplinary Studies in Special Education</li>
+    <li>3.6 GPA</li>
+    <li>Deans Scholarship Recipient August 2012</li>
+    <li>Thesis: Website Accessibility Within the Context of a College Atmosphere</li>
+    </div>
+  </ul>
+</ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Work Experience
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+
+        <div class = "text-info">
+  <h5>Closer to Cure Foundation — Park City, Utah</h5>
+  <h5>Web Developer Intern</h5>
+<ul>
+  <li>Created website for Closer to Cure foundation</li>
+  <li>Utilized Bootstrap, HTML, PHP, CSS and Photoshop</li>
+  </ul>
+  <br>
+  <div class = "text-info">
+  <h5>Pingree Center for Autism — Salt Lake City, Utah</h5>
+  <div class = "text-info">
+    <h5>Kitchen Manager</h5>
+<ul>
+    <li>Supervised kitchen staff in an educational setting</li>
+    <li>Handled audit for National School Lunch Program to ensure requirements were met</li>
+    <li>Provided food preparation, temperature checks</li>
+    <li>Developed proactive working relations with 50-70 staff members</li>
+    <li>Provided effective customer service to staff and students</li>
+    <li>Maintained accurate ordering schedules and records</li>
+    <li>Received positive feedback from many parents concerning student behavior</li>
+</ul>
+    <h5>Bus Driver</h5>
+<ul>
+    <li>Drove school bus for special needs students
+    Assisted with behavior management with 8 to 9 students while driving a minibus</li>
+    <li>Special Needs Classroom Assistant</li>
+    <li>Worked with a classroom of 10 children with behavioral and communicational limitations</li>
+    <li>Assisted with in-class behavior management</li>
+    <li>Kept accurate records for the students pertaining to educational and behavioral measures</li>
+  </ul>
+  <br>
+   <div class = "text-info">
+    <h5>Survey Sample International — Logan, Utah</h5>
+    <h5>Customer Service Representative</h5>
+  <ul>
+    <li>Conducted and gather survey data for multiple clients on various topics</li>
+    <li>Awarded top customer service representative based on conducted surveys</li>
+    <li>Recognized for proactive communication and knowledge of proprietary software</li>
+  </ul>
+  <br>
+  <div class = "text-info">
+  <h5>Vector Marketing — Logan, Utah</h5>
+  <h5>Sales Representative</h5> 
+  <ul>
+  <li>Sold CutCo knives to potential customers</li>
+  <li>Communicated with department lead and customers</li>
+</ul>
+<br>
+  <div class = "text-info">
+  <h5>Salt Lake Community College — Salt Lake City, Utah</h5>
+  <h5>Disability Resource Center Advocate</h5>
+<ul>
+  <li>Assisted special needs students with classroom participation relating to note and exam taking</li>
+  </div>
+</ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-    <table>
-        <tr>
-            <td><a href="https://rplatt.crl.wno.mybluehost.me/wp/">Why you shouldn't commit suicide<img src="antisuicide.jpg" alt="sunset pic" float="top"></td></a></td>
-            <td><a href=""><img src="" alt=""></td></a></td>
-            <td><a href=""><img src="" alt=""></td></a></td>
-        </tr>
-        <tr>
-            <td><a href=""><img src="" alt=""></td></a></td>
-            <td><a href=""><img src="" alt=""></td></a></td>
-            <td><a href=""><img src="" alt=""></td></a></td>
-        </tr>
-        <tr>
-            <td><a href=""><img src="" alt=""></td></a></td>
-            <td><a href=""><img src="" alt=""></td></a></td>
-            <td><a href=""><img src="" alt=""></td></a></td>
-        </tr>
-        <td></td>
-    </table>
+<div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Personal Development
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class = "text-info">
+  <h5>Programming</h5>
+  <h5>Github.com Personal Repository</h5> 
+<ul>
+  <li>Github.com/golemiam</li>
+</ul>
+<br>
+  <h5>Websites</h5>
+<ul>
+  <li>golemiam.github.io/Resume/</li>
+</ul>
+<br>
+        <div class = "text-info">
+  <h5>Language</h5>
+<ul>
+  <li>2+ years study with Italian</li>
+  <li>2+ years study with Spanish</li>
+  <li>3+ years study with German</li>
+  <li>6+ months Study with Russian</li>
+  <li>1+ year Study with Chinese</li>
+  <li>6+ months Study with Arabic</li>
+  <li>6+ months Study with French</li>
+  <li>6+ months Study with Hebrew</li>
+  <li>6+ months Study with Portuguese</li>
+  <li>3+ months Study with Swahili</li>
+  <li>3+ months Study with Dutch</li>
+  <p>Note: languages with less then 1 year of study are difficulty for me to hold much of a conversation.</p>
+</div>
+</ul>
+      </div>
+    </div>
+  </div>
+<div class="card">
+    <div class="card-header" id="headingFive">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Volunteer Experience
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class = "text-info">
+  <h5>The Church of Jesus Christ of Latter-day Saints — Millcreek, Utah</h5>
+  <h5>Ward Mission Leader </h5>
+<ul>
+  <li>March 2018 – November 2019</li>
+  <li>Managed and assisted local LDS missionaries in the Millcreek area with proselyting efforts</li>
+</ul>
+<br>
+  <h5>John M. Huntsman School of Business — Salt Lake City, Utah</h5>
+  <h5>Innovation Club Creative Consultant</h5>
+<ul>
+  <li>August 2012 – May 2013 </li>
+  <li>Innovation Club allows students to cultivate potential business ideas through collaboration </li>
+  <li>Provided insight to club members from perspective of businesses catering to special needs</li>
+  <li>Assisted in helping students start a business by critique of their current plan, making suggestions for change, and in personal business plan presentations</li>
+</ul>
+<br>
+  <h5>The Church of Jesus Christ of Latter-day Saints — Little Rock, Arkansas</h5>
+  <h5>Church Missionary</h5>
+<ul>
+  <li>October 2008 – October 2010</li>
+  <li>Proselyting full-time missionary who shared the teachings of The Church of Jesus Christ of Latter-day Saints</li>
+  <li>Served in local leadership capacity among other missionaries</li>
+</ul>
+  </div>
+</div>
+    </div>
+    </div>
+<div class="card">
+    <div class="card-header" id="headingSix">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Honors/Awards
+        </button>
+      </h2>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class = "text-info">
+  <h5>Salt Lake Community College — Salt Lake City, Utah</h5>
+  <h5>Certificate: Web Design and Programming</h5>
 
+<ul>
+  <li>August 2019 – April 2020 </li>
+</ul>
+<br>
+  <h5>Boy Scouts of America</h5>
+  <h5>Eagle Scout Award</h5>
+<ul>
+  <li>August 2004</li>
+</ul>
+    </div>
+  </div>
+</div>
+    </div>
+<div class="card">
+    <div class="card-header" id="headingSeven">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          References
+        </button>
+      </h2>
+    </div>
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class = "text-info">
 
-
-
-
-
-
-
-
-
-
+<h5>Available upon request</h5>
 </div>
 
 
-<script>
 
-</script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
 </body>
 </html>
